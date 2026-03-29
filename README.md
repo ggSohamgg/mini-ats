@@ -18,27 +18,27 @@ An end-to-end Machine Learning system that evaluates the compatibility between a
 
 ## 📊 Model Performance
 
-```
+
 
 Accuracy: 0.5981
 
-```
+``
            precision    recall  f1-score   support
 
  Good Fit       0.54      0.78      0.64       309
    No Fit       0.77      0.46      0.58       629
-```
+``
 
 Potential Fit       0.50      0.69      0.58       311
 
-```
+``
  accuracy                           0.60      1249
 macro avg       0.60      0.64      0.60      1249
-```
+``
 
 weighted avg       0.65      0.60      0.59      1249
 
-````
+``
 
 📌 Note:
 - Higher recall for **Good Fit** and **Potential Fit** improves real-world ATS usefulness
@@ -87,7 +87,7 @@ flowchart LR
 
 ## 🏗️ Project Structure
 
-```
+``
 mini-ats/
 │
 ├── app.py
@@ -133,22 +133,3 @@ No Fit: 0.33
 Potential Fit: 0.38
 ```
 
----
-
-## 🧠 Key Learnings
-
-* Handling **high-dimensional sparse text data**
-* Importance of **class imbalance correction**
-* Trade-offs between **accuracy vs recall**
-* Building **end-to-end ML systems (training → deployment)**
-
----
-
-## 🚧 Limitations
-
-* TF-IDF does not capture deep semantic meaning
-* No structured parsing (skills, experience)
-* Dataset contains synthetic noise
-
-```
-```
