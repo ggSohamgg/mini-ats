@@ -4,16 +4,16 @@ An end-to-end Machine Learning system that evaluates the compatibility between a
 ---
 
 ## 🚀 Features
-- 🔍 Multi-class classification: **Good Fit / Potential Fit / No Fit**
-- 🧠 TF-IDF based feature extraction
-- ⚖️ Class imbalance handling with weighted Logistic Regression
-- 📊 Model evaluation with detailed metrics
-- 💡 Explainable predictions with confidence scores
-- 🌐 Deployed on Streamlit
+-  Multi-class classification: **Good Fit / Potential Fit / No Fit**
+-  TF-IDF based feature extraction
+-  Class imbalance handling with weighted Logistic Regression
+-  Model evaluation with detailed metrics
+-  Explainable predictions with confidence scores
+-  Deployed on Streamlit
 
 ---
 
-## 🌐 Live Demo
+##  Live Demo
 👉 [Try it here](https://mini-ats-ewktd95a3zte7mg557utx2.streamlit.app/)
 
 ---
@@ -71,7 +71,7 @@ flowchart LR
 ---
 
 ## 💡 Example Output
-``
+```
 Prediction: Potential Fit
 Confidence:
   Good Fit:      0.29
